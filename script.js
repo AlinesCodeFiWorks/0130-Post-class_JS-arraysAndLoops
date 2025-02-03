@@ -37,3 +37,10 @@ for (i = 0; i < nums.length; i++) {
 console.log(highestNum);
 //omg, I had it all along - my condition was just false *facepalm*. Lesson learned!
 //Exercise 5
+
+let userNames = ["Julie", "Rebecca", "Molly"];
+
+for (i = 0; i < userNames.length; i++) {
+  console.log(`Welcome, ${userNames[i]}!`);
+}
+//That one was eeaaasyyy! Heck yeah!
