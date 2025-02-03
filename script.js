@@ -29,13 +29,11 @@ console.log(reverseArray);
 let nums = [50, 5, 500];
 let highestNum = 0;
 
-for (i = 0; i >= nums.length; i++) {
+for (i = 0; i < nums.length; i++) {
   if (nums[i] > highestNum) {
     highestNum = nums[i];
   }
 }
 console.log(highestNum);
-
-//omg I should be using a while loop instead!
-
+//omg, I had it all along - my condition was just false *facepalm*. Lesson learned!
 //Exercise 5
