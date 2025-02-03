@@ -40,7 +40,11 @@ console.log(highestNum);
 
 let userNames = ["Julie", "Rebecca", "Molly"];
 
-for (i = 0; i < userNames.length; i++) {
-  console.log(`Welcome, ${userNames[i]}!`);
+function greetUsers(nameArray) {
+  for (i = 0; i < nameArray.length; i++) {
+    console.log(`Welcome, ${nameArray[i]}!`);
+  }
 }
 //That one was eeaaasyyy! Heck yeah!
+//No, wait - I missed a part
+greetUsers(userNames);
